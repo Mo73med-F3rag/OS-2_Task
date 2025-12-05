@@ -13,9 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: 'Login To Docker Hub'  
-        run: docker login --username mo72medfarg --password dckr_pat_a3YWzrcqNagzeZJ3HBDFiDuOAgI
-     
+      
 
        
           

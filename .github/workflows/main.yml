@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3 
 
-      - name: 'Login To DockerHub'
+      - name: 'Login To DockerHub using secret'
         run: docker login --name ${{ secrets.DOCKERHUB_USERNAME }} --password ${{ secrets.DOCKERHUB_PASSWORD }}
       
       
